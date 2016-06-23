@@ -27,7 +27,10 @@ p, h1 {
 
 .navbar-default .nav li.active a {
     color:#1d1d1d !important;
+}
 
+.navbar-header {
+    margin-top: 15px;
 }
 
 /*HEADER*/
