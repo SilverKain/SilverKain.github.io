@@ -1,0 +1,377 @@
+*{
+    padding:0; margin:0;
+}
+
+img {
+    border: 0;
+}
+
+body{
+    font-family: "Verdana", Times, serif;
+}
+
+.main{
+    width:950px; margin:0 auto;
+}
+
+header {
+    padding:30px 0 0 0;
+}
+
+.main-content {
+    overflow: hidden;
+}
+
+.main-content h1 {
+    margin-bottom: 20px; font-size: 24px; font-weight: normal;
+}
+
+.main-content h2 {
+    margin-bottom: 20px; font-size: 21px; font-weight: normal;
+}
+
+.main-content p {
+    margin-bottom: 20px;
+}
+
+article {
+    width:420px; padding:30px 30px 32000px 30px; float: left; background: #fff; margin-bottom: -32000px;
+}
+
+aside {
+    float: right; background: #ffffff; width: 421px; padding:30px 10px 32000px 30px; margin-bottom: -32000px;
+    }
+
+p span{
+   color: #346702;
+}
+
+/*RIGTH UP*/
+
+.main_right_obj_on{
+    color: #f17502;
+}
+
+aside .main_right_obj_m{
+    font-size: 14px; font-weight: Bold;
+}
+
+aside .main_right_obj_U{
+    font-size: 12px; font-weight: normal;
+}
+
+.main_right_obj{
+    border: 1px solid orangered;
+    padding: 10px;
+}
+
+.main_right_f_a{
+    font-size: 18px; font-weight: Bold;
+    color: black;
+    text-decoration: line-through;
+}
+
+.main_right_f_b{
+    font-size: 18px; font-weight: Bold;
+    color: red;
+}
+
+.main_right_f_c{
+    font-size: 14px; font-weight: normal;
+    color: red;
+}
+
+.main_right_f{
+    margin-top: 20px;
+}
+
+.main_right_s{
+    font-size: 14px; font-weight: Bold;
+    color: black;
+}
+
+.main_right_s_f{
+    font-size: 14px; font-weight: Bold;
+    color: red;
+}
+
+.main_right_s_s{
+    font-size: 12px; font-weight: normal;
+    color: green;
+}
+
+.main_right{
+    font-size: 14px; font-weight: normal;
+}
+
+.main_right_obj_s{
+    font-size: 14px; font-weight: Bold;
+    color:purple;
+}
+
+
+.main_right_obj_f{
+    font-size: 12px; font-weight: normal;
+    color:green;
+}
+
+.title_custom{
+    font-size: 16px; font-weight: Bold;
+    padding-left: 10px;
+}
+
+.custom_f{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+select{
+    padding: 5px 60px 5px 5px;
+}
+
+.custom{
+ float: left;
+}
+
+.main_rgh_dw{
+float: right;
+margin-right: 50px;
+margin-top: 20px;
+}
+
+.Picker{
+    float: left;
+}
+
+.main_rgh_dw_c {
+    margin-top: 165px;
+    padding-left: 35px;
+}
+
+.main_rgh_dw_c img {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+input{
+    padding: 1em 0em 0em;
+    text-align: center;
+}
+
+.main_rgh_dw_t{
+    font-size: 14px; font-weight: Bold;
+    color:black;
+}
+
+.main_rgh_dw_s{
+    font-size: 11px; font-weight: normal;
+    color:black;
+}
+
+.main_rgh_dw_a{
+    font-size: 11px; font-weight: normal;
+    color:gray;
+}
+
+.main_rgh_dw_f{
+    padding-left: 50px;
+}
+
+.main_rgh_dw_b button{
+    padding: 10px 30px;
+    margin-left: 130px;
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 16px; font-weight: Bold;
+    border-radius: 5px;
+}
+
+.Customization{
+    border: 1px solid #dddddd;
+    padding: 10px 0px 0px 0px;
+}
+
+
+.main_rgh_dw_b{
+    border-top: 2px dotted #dddddd;
+    background-color: #f2f2f2;
+    height: 66px;
+}
+
+/*END RIGTH UP*/
+
+/*LEFT UP*/
+
+.pics{
+    padding: 10px 0px 10px 160px;
+}
+
+.container_pic{
+ padding-left: 100px;
+}
+
+hr{
+    color: lavender;
+}
+
+.container_list{
+    font-size: 14px; font-weight: Bold;
+    color:purple;
+}
+
+.container_Green{
+    font-size: 16px; font-weight: Bold;
+    color:green;
+}
+
+.container_BlackG{
+    font-size: 16px; font-weight: Bold;
+    color:black;
+}
+
+.container_BlackT{
+    font-size: 14px; font-weight: normal;
+    color:black;
+}
+
+.Greenmore{
+    font-size: 14px; font-weight: normal;
+    color:green;
+}
+
+.container_snow{
+    font-size: 14px; font-weight: normal;
+}
+
+.container_snow img{
+    padding-right: 5px;
+}
+
+.hvr-bubble-left{
+    margin: 12px 0px 6px 9px;
+    padding: 3px 4px 2px 4px;
+    cursor: pointer;
+    background: #ffffff;
+    text-decoration: none;
+    color: #666;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border: 1px solid #000000;
+}
+
+.hvr-bubble-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+.hvr-bubble-left:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    border-style: solid;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    top: calc(50% - 5px);
+    left: -10px;
+    border-width: 5px 10px 5px 0;
+    border-color: transparent #000000 transparent transparent;
+}
+
+.facebook{
+    background-image: url(img/facebook.png);
+    width: 47px;
+    height: 21px;
+}
+
+.tweet{
+    background-image: url(img/tweet.png);
+    width: 53px;
+    height: 19px;
+}
+
+.google{
+    background-image: url(img/google.png);
+    width: 34px;
+    height: 19px;
+}
+
+.pinit{
+    background-image: url(img/pinit.png);
+    width: 34px;
+    height: 19px;
+}
+
+.container_Allergens{
+    font-size: 16px; font-weight: Bold;
+    color:green;
+}
+
+/*END RIGHT DOWN*/
+
+.main_rgh_dw_n{
+    font-size: 20px; font-weight: Bold;
+    color:black;
+    margin-top: 30px;
+}
+
+.main_rgh_a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main_rgh_b{
+    float: right;
+    margin-right: 40px;
+}
+
+.main_rgh_d{
+    float: right;
+    margin-right: 60px;
+}
+
+.main_rgh_c{
+    font-size: 13px; font-weight: Bold;
+}
+
+.main_rgh_f{
+    font-size: 13px; font-weight: normal;
+}
+
+.main_rgh_dw_y{
+    padding-top: 20px;
+}
+
+.main_rgh_dw_u{
+    color:green;
+}
+
+.qty {
+    width: 55px;
+    height: 13px;
+    text-align: center;
+    margin: 0px 20px 0px;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}
+
+.qtyminus{
+    background-image: url("img/minus.png");
+    vertical-align: middle;
+}
+
+.qtyplus{
+    background-image: url("img/plus.png");
+    vertical-align: middle;
+}
+

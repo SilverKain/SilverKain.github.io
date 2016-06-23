@@ -115,6 +115,11 @@ p, h1 {
 
 /*FEATURES*/
 
+
+.Portfolio {
+    text-align: center;
+}
+
 .features {
     background-color: #337ab7;
     text-align:center;
