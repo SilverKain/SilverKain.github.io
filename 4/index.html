@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"> 
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<link rel="stylesheet" href="css/unslider.css">
+<link rel="stylesheet" href="css/unslider-dots.css">
+
+<link href='http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed' rel='stylesheet' type='text/css'>
+<title>Company name - home page</title>
+</head>
+
+<body>
+<header>
+     <div class="center-block-main">
+         <div class="header-top clearfix">
+             <p class="logo">BIRUANG</p>
+             <div class="contakt-basket">
+                 <p class="header-phone">
+                     <img src="img/ico-phone.jpg" alt=""> +371 282 20 760
+                 </p>
+                 <p class="header-basket">
+                     <img src="img/ico-basket.jpg" alt=""> $ 99.54 <a href="#">Checkout</a>
+                 </p>
+             </div>
+         </div>
+         <div class="header-bottom clearfix">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+             <div class="search-block">
+                 <form action="" method="get">
+                     <input type="image" src="img/search-btn.jpg" class="search-btn">
+                     <input type="search" class="search" placeholder="Search...">
+                 </form>
+             </div>
+         </div>
+     </div>
+</header>
+
+<div class="my-slider center-block-main">
+    <ul>
+        <li>
+            <h2>Sport for you <br> slide 1</h2>
+            <p>Inspired by Brasil's bold colors and matching up to football's on-pitch<br>playmakers, these kicks are ready to stand out.</p>
+            <img src="img/sport.jpg" alt="">
+        </li>
+        <li>
+            <h2>Sport for you <br>slide 2</h2>
+            <p>Inspired by Brasil's bold colors and matching up to football's on-pitch<br>playmakers, these kicks are ready to stand out.</p>
+            <img src="img/sport.jpg" alt="">
+        </li>
+        <li>
+            <h2>Sport for you <br>slide 3</h2>
+            <p>Inspired by Brasil's bold colors and matching up to football's on-pitch<br>playmakers, these kicks are ready to stand out.</p>
+            <img src="img/sport.jpg" alt="">
+        </li>
+    </ul>
+</div>
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/unslider-min.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        $('.my-slider').unslider({
+            autoplay:true,
+            arrows: false
+
+        });
+    });
+</script>
+</body>
+</html>
