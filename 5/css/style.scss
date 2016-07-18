@@ -1,0 +1,102 @@
+@import compass
+
+@import("compass/css3")
+
+$min-height-block: 250px
+
+body
+  background-color: lightgrey
+  overflow: hidden
+
+img
+  max-width: 100% !important
+  width: 0 \ auto
+
+#main-container
+  margin: 20px auto
+  max-width: 900px
+  background-color: grey
+  height: 100%
+  overflow: hidden
+
+.block
+  background-color: steelblue
+  width: 31.33%
+  min-height: $min-height-block
+  float: left
+  margin: 1%  
+  +box-sizing(border-box)
+  
+  h2
+    padding: 0
+    margin: 0
+
+  figure
+    margin: 0
+    padding: 0
+    width: 100%
+    text-align: center
+
+  figcaption
+    padding: 10px 0px
+    background-color: rgba(111, 211, 122, .8)
+    +transition(all 0.5s ease) 
+    z-index: 2
+
+  .thumbnail
+    text-align: center
+
+.more
+  border: none
+  padding: 10px 15px
+  margin: 0
+  position: relative
+  top: -60px
+  visibility: hidden
+
+.title
+  background-color: darkred
+  text-align: center
+
+/**
+ *  Anadir con JQuery
+ */
+
+.jq-figcaption-hover
+  top: 78px
+  position: relative
+
+.jq-figcaption-leave
+  top: 0px
+  position: relative  
+
+/**
+ *  Animaciones
+ */
+
+@-webkit-keyframes throb
+  30%
+    +scale(1)
+  50%
+    +scale(1.05)
+  90%
+    +scale(1)
+
+@media screen and (max-width:640px)
+  .block
+    background-color: blue
+    width: 47.9%    
+  
+    &:first-child
+      width: 98%
+      background-color: red
+      clear: both
+  
+    &:last-child
+      width: 98%
+      background-color: darkgreen
+      clear: both
+  
+@media screen and (max-width:380px)
+  .block
+    width: 98%
