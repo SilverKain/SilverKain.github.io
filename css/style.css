@@ -27,10 +27,17 @@ p, h1 {
 
 .navbar-default .nav li.active a {
     color:#1d1d1d !important;
+
 }
 
-.navbar-header {
-    margin-top: 15px;
+.port img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.port img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 /*HEADER*/
@@ -41,19 +48,6 @@ p, h1 {
     background-size: cover;
     width: 100%;
     border-bottom: 2px solid #c9c9c9;
-}
-
-.about_me h1 {
-    text-align: center;
-    padding-top: 15px;
-}
-
-.about_me {
-    text-align: center;
-}
-
-.about_me img {
-    margin-top: 57px;
 }
 
 .header h1 {
@@ -72,7 +66,7 @@ p, h1 {
     border-radius: 0;
 }
 
-/*@media(max-width:768px ) {
+@media(max-width:768px ) {
 
     .header h1 {
         text-align:center;
@@ -82,7 +76,7 @@ p, h1 {
     .header p {
         font-size:1em;
     }
-}*/
+}
 
 .header .btn {
     padding: 5px 12px 5px 12px;
@@ -112,29 +106,12 @@ p, h1 {
     padding-bottom:5px;
 }
 
-
 /*FEATURES*/
 
-
-.Portfolio {
-    text-align: center;
-}
-
 .features {
-    background-color: #337ab7;
-    text-align:center;
+    background-color: #D3D3D3;
     color:white;
     padding:90px 0 90px ;
-}
-
-
-.features h1 {
-    font-size: 2em;
-    padding-bottom: 25px ;
-}
-
-.features img {
-    padding: 15px 0 35px;
 }
 
 
