@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="jquery-1.12.3.js"></script>
+
+    <title>SVG 2</title>
+</head>
+<body>
+
+<h2>&#8595;&nbsp;Меню&nbsp;&#8595;</h2>
+<svg display="none">
+    <defs>
+        <g id="icon1" class="icon">
+            <text x="50%" y="50%">★</text>
+            <line x1="50%" y1="50%" x2="50%" y2="50%"/>
+        </g>
+        <g id="icon2" class="icon">
+            <text x="50%" y="50%">❤</text>
+            <line x1="50%" y1="50%" x2="50%" y2="50%"/>
+        </g>
+        <g id="icon3" class="icon">
+            <text x="50%" y="50%">✗</text>
+            <line x1="50%" y1="50%" x2="50%" y2="50%"/>
+        </g>
+        <g id="icon4" class="icon">
+            <text x="50%" y="50%">✉</text>
+            <line x1="50%" y1="50%" x2="50%" y2="50%"/>
+        </g>
+        <g id="icon5" class="icon">
+            <text x="50%" y="50%">♆</text>
+            <line x1="50%" y1="50%" x2="50%" y2="50%"/>
+        </g>
+    </defs>
+</svg>
+<p>
+  <svg><use xlink:href="#icon1"/></svg><a href = '#'>Первый пункт</a>
+</p>
+<p>
+  <svg><use xlink:href="#icon2"/></svg><a href = '#'>Второй пункт</a>
+</p>
+<p>
+  <svg><use xlink:href="#icon3"/></svg><a href = '#'>Третий пункт</a>
+</p>
+<p>
+  <svg><use xlink:href="#icon4"/></svg><a href = '#'>Четвертый пункт</a>
+</p>
+<p>
+  <svg><use xlink:href="#icon5"/></svg><a href = '#'>Пятый пункт</a>
+</p>
+
+</body>
+</html>

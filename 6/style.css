@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+
+body {
+    width:100%;
+    background: hsla(0,25%,15%,1);
+    font-size: 1.8em;
+    font-family: 'Righteous', cursive;
+    line-height:1.5em;
+    color:hsla(179, 15%, 95%, 1);
+    text-align:center;
+}
+
+a{
+  text-decoration:none;
+  color:currentColor;
+}
+.icon{
+    fill:currentColor;
+    stroke:currentColor;
+    stroke-linejoin:round;
+    stroke-linecap:round;
+}
+.icon text{
+    text-anchor:middle;
+    dominant-baseline:mathematical;
+}
+
+svg{
+    width:.85em;
+    height:.85em;
+    display:inline;
+    margin-right:0.5em;
+}
+use{
+	transition-property:stroke-width,font-size;
+	transition-duration:0.3s;
+	transition-timing-function:ease-out;
+	transition-property:stroke-width,font-size;
+	font-size:0%;
+	stroke-width:100%;
+}
+
+p:hover use{
+	font-size:90%;
+	stroke-width:0%;
+}
+
+p:hover{
+    color:hsla(179, 85%, 35%, 1);
+}
