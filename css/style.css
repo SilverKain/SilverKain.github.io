@@ -110,7 +110,7 @@ p, h1 {
 
 .features {
     background-color: #D3D3D3;
-    color:white;
+    color:black;
     padding:90px 0 90px ;
 }
 
@@ -256,3 +256,26 @@ p, h1 {
 }
 
 
+@media screen and (max-width: 767px) {
+    .masonry[data-columns]::before {
+        content: '1 .col-xs-12';
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .masonry[data-columns]::before {
+        content: '2 .col-xs-6';
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .masonry[data-columns]::before {
+        content: '3 .col-xs-4';
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .masonry[data-columns]::before {
+        content: '3 .col-xs-4';
+    }
+}

@@ -12,10 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
-	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-	 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
@@ -80,119 +77,44 @@
 </div>
 
 
-            
-	  
 <!-- END HEADER -->
 
 <!-- ABOUT -->
-
-	  
-
 											
 <div class="features" id="features">
     <div class="container">
         <div class="row">
-		
-	  <div class="row">
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/site_001.jpg">
-            </div>
-            <div class="card-content">
-              <p>Hover</br>unslider</br>social-likes</br>jQuery</br>Фиксированный дизайн</br>БЭМ.</p>
-            </div>
-            <div class="card-action">
-              <a href="2/index.html">This is a link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-		
-	  <div class="row">
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/site_002.jpg">
-            </div>
-            <div class="card-content">
-              <p>bootstrap</br>font-awesome</br>salvattore</br>Адаптивный дизайн</p>
-            </div>
-            <div class="card-action">
-              <a href="3/catalog.html">This is a link</a>
-            </div>
-          </div>
-        </div>
-      </div>	
-							
-	  <div class="row">
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/site_003.jpg">
-            </div>
-            <div class="card-content">
-              <p>unslider</br>bootstrap</br>glyphicon</br>jQuery</br>Резиновый дизайн</br>БЭМ</p>
-            </div>
-            <div class="card-action">
-              <a href="4/index.html">This is a link</a>
-            </div>
-          </div>
-        </div>
-      </div>	
-
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                      <a href="2/index.html" ><img src="img/site_01.jpg"></a>
+						<blockquote>hover</br>unslider</br>social-likes</br>jQuery</br>Фиксированный дизайн</br>БЭМ</blockquote>
+				</div>
+                <div class="col-lg-4 col-md-4">
+                      <a href="3/catalog.html" ><img src="img/site_02.jpg"></a>
+						<blockquote>bootstrap</br>font-awesome</br>salvattore</br>Адаптивный дизайн</blockquote>
+				</div>
+												
+				<div class="col-lg-4 col-md-4">
+                      <a href="4/index.html" ><img src="img/site_03.jpg"></a>
+						<blockquote>unslider</br>bootstrap</br>glyphicon</br>jQuery</br>Резиновый дизайн</br>БЭМ</blockquote>
+				</div>	
 			</div>
 			
 			<div class="row">
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/site_004.jpg">
-            </div>
-            <div class="card-content">
-              <p>SVG</br>Фиксированный дизайн</p>
-            </div>
-            <div class="card-action">
-              <a href="5/index.html">This is a link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-		
-	  <div class="row">
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/site_005.jpg">
-            </div>
-            <div class="card-content">
-              <p>SVG</br>Резиновый дизайн</p>
-            </div>
-            <div class="card-action">
-              <a href="6/catalog.html">This is a link</a>
-            </div>
-          </div>
-        </div>
-      </div>	
-							
-	  <div class="row">
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-image">
-              <img src="img/site_006.jpg">
-            </div>
-            <div class="card-content">
-              <p>Scss</br>Адаптивный дизайн</p>
-            </div>
-            <div class="card-action">
-              <a href="7/index.html">This is a link</a>
-            </div>
-          </div>
-        </div>
-      </div>	
-			
-			
-		
+                <div class="col-lg-4 col-md-4">
+                      <a href="5/index.html" ><img src="img/slide_4.jpg"></a>
+						<blockquote>SVG</br>Фиксированный дизайн</blockquote>
+				</div>
+                <div class="col-lg-4 col-md-4">
+                      <a href="6/index.html" ><img src="img/svg_2.jpg"></a>
+						<blockquote>SVG</br>Резиновый дизайн</blockquote>
+				</div>
+												
+				<div class="col-lg-4 col-md-4">
+                      <a href="7/index.html" ><img src="img/slide_6.jpg"></a>
+						<blockquote>Scss</br>Адаптивный дизайн</blockquote>
+				</div>	
+			</div>
 			
 		</div>
 	</div>
@@ -226,11 +148,9 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
 
 <script src="js/wow.min.js"></script>
 <script>
