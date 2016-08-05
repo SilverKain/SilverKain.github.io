@@ -466,7 +466,14 @@ button[type="submit"]:hover {
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 1201px) {
+
+    .resource {
+        width: 40%;
+        margin-right: 2%;
+        min-height: 800px;
+    }
+
     .logo {
         width: 50%;
     }
@@ -478,14 +485,10 @@ button[type="submit"]:hover {
         height: 240px;
     }
 
-    .resource {
-        width: 48%;
-        margin-right: 2%;
-        min-height: 800px;
-    }
+
 }
 
-@media screen and (max-width : 568px) {
+@media screen and (max-width : 993px) {
 
     .resource {
         width: 100%;
