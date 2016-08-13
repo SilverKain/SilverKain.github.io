@@ -2,6 +2,10 @@ p, h1 {
     font-family: 'Droid Sans', sans-serif;
 }
 
+#firstcont img{
+    margin-right: -6px;
+}
+
 
 /*NAVIGATION*/
 
