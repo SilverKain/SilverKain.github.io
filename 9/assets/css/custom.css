@@ -26,7 +26,15 @@ body {
 }
 
 .efficiency{
-    background: url("../img/efficiency_number.png");
+    background: url("../img/efficiency_number.png") no-repeat;
+}
+
+.certainty{
+    background: url("../img/certainty_number.png") no-repeat;
+}
+
+.agility{
+    background: url("../img/agility_number.png") no-repeat;
 }
 
 .col-sm-6{
@@ -36,6 +44,7 @@ body {
 .certainty h4 {
   font-size: 70px;
   color: #2c868d;
+  padding-left: 100px;
 }
 
 .certainty span p{
@@ -57,6 +66,7 @@ body {
 .agility h4 {
 	font-size: 70px;
 	color: #003865;
+    padding-left: 100px;
 }
 
 .agility{
