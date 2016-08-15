@@ -1,14 +1,72 @@
 /* GENERAL */
 
 body {
-	text-align: center;
     margin-top: 100px;
     font-family: 'proxima-nova', 'Raleway', Helvatica, sans-serif;
     font-size: 20px;
-    background: url("../img/tile.jpg") top left repeat;
-	text-align: center;
 	min-width: 1500px;
 }
+
+.efficiency{
+	padding-left: 70px;
+}
+
+.efficiency h4 {
+  font-size: 70px;
+  color: #71a168;
+}
+
+.efficiency span p{
+  color: #003865;
+}
+
+.certainty{
+	padding-left: 70px;
+}
+
+.certainty h4 {
+  font-size: 70px;
+  color: #2c868d;
+}
+
+.certainty span p{
+  color: #003865;
+}
+
+.bl_p {
+	color: blue;
+}
+
+.certainty .Yell_h{
+	color: #d79e3e;
+}
+
+.certainty span p{
+  color: #003865;
+}
+
+.agility h4 {
+	font-size: 70px;
+	color: #003865;
+}
+
+.agility{
+	padding-left: 70px;
+}
+
+.agility .Yell_h{
+	color: #d79e3e;
+}
+
+.agility span p{
+  color: #003865;
+}
+
+
+body p{
+  font-size: 21px;
+}
+
 
 div workflow clearfix {
 	margin-top: 50px;
@@ -440,9 +498,6 @@ footer li.signup-link a:hover {
 
 /*FORMS*/
 
-body p{
-	display: none;
-}
 
 .thumb img  {
 margin-right: -6px;
