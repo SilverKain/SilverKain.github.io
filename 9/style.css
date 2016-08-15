@@ -31,10 +31,31 @@ img {
 }
 
 body {
-	text-align: center;
-    font-family: 'proxima-nova', 'Raleway', Helvatica, sans-serif;
-    font-size: 20px;
+    font-family: 'proxima-nova', 'Raleway', Helvatica;
     background: url("../img/tile.jpg") top left repeat;
-	text-align: center;
 	min-width: 1500px;
+}
+
+h2 {
+	font-weight: lighter;
+	font-style: italic;
+    padding: 20px;
+    padding-left: 400px;
+}
+
+.indpic img {
+    padding-left: 250px;
+}
+
+.indrigt p span{
+    font-size: 23px;
+    color: #d79e3e;
+}
+
+.indrigt p{
+    font-size: 21px;
+}
+
+.col-sm-6{
+    padding: 10px;
 }

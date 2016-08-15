@@ -520,7 +520,7 @@ footer li.signup-link a:hover {
 
 .thumb img  {
 margin-right: -6px;
-margin-top: 0px;
+margin-top: 47px;
 }
   
 
@@ -585,7 +585,6 @@ button[type="submit"]:hover {
 /*MEDIA QUERIES*/
 
 @media screen and (max-width : 1201px) {
-
     .resource {
         width: 40%;
         margin-right: 2%;
@@ -602,16 +601,24 @@ button[type="submit"]:hover {
     #featurette iframe {
         height: 240px;
     }
-
-
 }
 
 @media screen and (max-width : 993px) {
-
     .resource {
         width: 100%;
         margin-right: 0;
         min-height: 0;
     }
+}
 
+@media (min-width: 768px) and (max-width : 933px) {
+    .thumb img {
+        margin-top: 95px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .thumb img {
+        margin-top: -3px;
+    }
 }
