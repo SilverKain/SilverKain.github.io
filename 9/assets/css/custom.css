@@ -37,8 +37,25 @@ body {
     background: url("../img/agility_number.png") no-repeat;
 }
 
+#firstcont .text_rht{
+    background: url("../img/PhyCom_4x.png") no-repeat;
+    padding: 100px;
+    color: white;
+}
+
+#firstcont .text_lft{
+    background: url("../img/PhyCom_5x.png") no-repeat;
+    padding: 100px;
+    color: white;
+}
+
+.lorem_rht{
+    padding-left: 100px;
+}
+
 .col-sm-6{
     padding-left: 100px;
+    width: 48%;
 }
 
 .certainty h4 {
@@ -174,9 +191,7 @@ img{
 	text-align:center;
 }
 
-#firstcont img{
-	padding-left: 5px;
-}
+
 
 /*HERO*/
 
