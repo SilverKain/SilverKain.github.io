@@ -54,7 +54,6 @@ body {
 }
 
 .col-sm-6{
-    padding-left: 100px;
     width: 48%;
 }
 
@@ -98,9 +97,16 @@ body {
   color: #003865;
 }
 
-
 body p{
   font-size: 21px;
+}
+
+.rht_yell{
+    color: #d79e3e;
+}
+
+.footer_rht span{
+    padding: 25px;
 }
 
 
@@ -289,7 +295,7 @@ section h3 {
 
 .feature-image{
     display: table;
-    width: 100%;    
+    width: 100%;
 }
 
 .feature-image-default {
@@ -348,6 +354,7 @@ footer {
     color: white;
     padding: 20px 0 10px;
     font-size: 12px;
+    width: 1438px;
 }
 
 footer p{
@@ -537,7 +544,7 @@ footer li.signup-link a:hover {
 margin-right: -6px;
 margin-top: 47px;
 }
-  
+
 
 body h3{
 	display: none;
@@ -637,3 +644,5 @@ button[type="submit"]:hover {
         margin-top: -3px;
     }
 }
+
+

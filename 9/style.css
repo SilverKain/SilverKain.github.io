@@ -36,6 +36,10 @@ body {
 	min-width: 1500px;
 }
 
+body .col-sm-6 {
+    width: 30%;
+}
+
 h2 {
 	font-weight: lighter;
 	font-style: italic;
@@ -44,7 +48,8 @@ h2 {
 }
 
 .indpic img {
-    padding-left: 200px;
+/*    padding-left: 200px;*/
+    float: right;
 }
 
 .indrigt p span{
