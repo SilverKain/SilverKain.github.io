@@ -40,6 +40,11 @@ body .col-sm-6 {
     width: 30%;
 }
 
+body .about .col-sm-6 {
+    width: 50%;
+}
+
+
 h2 {
 	font-weight: lighter;
 	font-style: italic;
@@ -47,7 +52,7 @@ h2 {
     padding-left: 500px;
 }
 
-.indpic img {
+.indust .indpic img {
 /*    padding-left: 200px;*/
     float: right;
 }
