@@ -58,7 +58,6 @@ button, input, .btn, a.btn {
 
 .btn-danger {
     background-color: #dd5638;
-    border-collapse: #d95131;
 }
 
 img{
@@ -86,7 +85,7 @@ img{
 
 #price-timeline {
     margin: 30px 0 60px;
-    text-alight: center;
+    text-align: center;
 }
 
 #price-timeline .price {
@@ -116,7 +115,6 @@ img{
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     position: absolute;
-    botton: -35px;
     left: 50%;
     margin-left: -35px;
 }
@@ -164,7 +162,7 @@ section h3 {
 
 .feature-image{
     display: table;
-    width: 100%;    
+    width: 100%;
 }
 
 .feature-image-default {
