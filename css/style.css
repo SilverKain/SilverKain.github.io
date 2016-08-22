@@ -34,16 +34,6 @@ p, h1 {
 
 }
 
-.port img {
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-
-.port img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
-}
-
 /*HEADER*/
 
 .header {
@@ -260,7 +250,7 @@ p, h1 {
 
 @media screen and (max-width: 767px) {
     .masonry[data-columns]::before {
-        content: '1 .col-xs-12';	
+        content: '1 .col-xs-12';
     }
 }
 
