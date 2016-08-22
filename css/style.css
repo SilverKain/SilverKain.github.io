@@ -42,7 +42,7 @@ p, h1 {
 .port img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
-}
+}`
 
 /*HEADER*/
 
@@ -209,10 +209,6 @@ p, h1 {
     text-align: center;
 }
 
-.contact h1 {
-    font-size: 1 em;
-}
-
 .about .fa {
     color:#1c3f5c;
     padding:20px 10px 40px;
@@ -231,7 +227,7 @@ p, h1 {
 
 .footer {
     background-color: #242424;
-    colo:white;
+    color:white;
     padding: 30px 0 30px;
 }
 
