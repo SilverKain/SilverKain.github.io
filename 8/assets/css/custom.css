@@ -457,6 +457,8 @@ button[type="submit"]:hover {
     background: black;
 }
 
+
+
 /*MEDIA QUERIES*/
 
 @media screen and (max-width : 1201px) {
