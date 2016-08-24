@@ -2,7 +2,7 @@ body {
     margin-top: 100px;
     font-family: 'proxima-nova', 'Raleway', Helvatica, sans-serif;
     font-size: 20px;
-    min-width: 1500px;
+    min-width: 1000px;
 }
 
 /*header*/
@@ -43,3 +43,130 @@ color:#a28548;
 .navbar-collapse{
     margin-top: 97px;
 }
+
+
+/*PROJECT PICS*/
+
+#project-pics img{
+    margin-top: 47px;
+}
+
+#project-pics {
+    text-align: center;
+}
+
+
+/*ORANG TEXT*/
+
+#orng-txt .text_rht{
+    background: url("../img/PhyCom_4x.png") no-repeat;
+    padding: 100px;
+    color: white;
+}
+
+#orng-txt .text_lft{
+    background: url("../img/PhyCom_5x.png") no-repeat;
+    padding: 100px;
+    color: white;
+}
+
+#orng-txt .workflow{
+    width: 1440px;
+    margin-top: 10px;
+}
+
+
+
+
+/*MEDIA*/
+
+
+@media (min-width: 1200px) and (max-width : 1920px) {
+    .container {
+        width: 1440px;
+    }
+}
+
+
+@media (min-width: 993px) and (max-width : 1200px) {
+    .container img {
+        width: 111%;
+    }
+
+    #orng-txt .text_rht {
+        width: 24em;
+        padding: 35px;
+    }
+
+    #orng-txt .text_lft {
+        width: 24em;
+        padding: 35px;
+    }
+
+    #orng-txt .workflow {
+        width: 986px;
+
+    }
+}
+
+    @media (min-width: 881px) and (max-width: 992px) {
+        .container img {
+            width: 114%;
+        }
+
+        #orng-txt .text_rht {
+            width: 19em;
+            padding: 10px;
+        }
+
+        #orng-txt .text_lft {
+            width: 18em;
+            padding: 10px;
+        }
+
+        #orng-txt .workflow {
+            width: 781px;
+
+        }
+
+    }
+
+    @media (min-width: 768px) and (max-width: 880px) {
+        .container img {
+            width: 114%;
+        }
+
+        #project-pics img {
+            margin-top: 95px;
+        }
+
+        #orng-txt .text_rht {
+            width: 19em;
+            padding: 10px;
+        }
+
+        #orng-txt .text_lft {
+            width: 18em;
+            padding: 10px;
+        }
+
+        #orng-txt .workflow {
+            width: 781px;
+
+        }
+    }
+
+    @media (min-width: 0px) and (max-width: 767px) {
+        #project-pics img {
+            margin-top: 0px;
+            margin-left: -220px;
+        }
+
+        #orng-txt .container .col-sm-6{
+            margin: 5px;
+        }
+
+        #orng-txt .text_lft{
+            width: 710px;
+        }
+    }
