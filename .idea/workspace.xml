@@ -169,7 +169,13 @@
       <option name="project" value="LOCAL" />
       <updated>1472051839321</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="newpics">
+      <created>1472051928587</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1472051928587</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -220,7 +226,8 @@
     <MESSAGE value="9updat" />
     <MESSAGE value="9update" />
     <MESSAGE value="newpic" />
-    <option name="LAST_COMMIT_MESSAGE" value="newpic" />
+    <MESSAGE value="newpics" />
+    <option name="LAST_COMMIT_MESSAGE" value="newpics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
