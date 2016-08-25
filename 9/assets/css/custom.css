@@ -87,6 +87,30 @@ color:#a28548;
 
 
 
+
+
+.efficiency h4 {
+    font-size: 70px;
+    color: #71a168;
+    padding-left: 115px;
+    padding-top: 30px;
+}
+
+.efficiency span p{
+    color: #003865;
+}
+
+.efficiency p{
+    padding-left: 100px;
+}
+
+.efficiency .container{
+    background: url("../img/efficiency_number.png") no-repeat;
+}
+
+
+
+
 /*MEDIA*/
 
 
@@ -135,7 +159,10 @@ color:#a28548;
 
         #orng-txt .workflow {
             width: 781px;
+        }
 
+        .efficiency p{
+            padding-left: 0px;
         }
 
     }
@@ -163,6 +190,10 @@ color:#a28548;
             width: 781px;
 
         }
+
+        .efficiency p{
+            padding-left: 0px;
+        }
     }
 
     @media (min-width: 0px) and (max-width: 767px) {
@@ -178,4 +209,5 @@ color:#a28548;
         #orng-txt .text_lft{
             width: 710px;
         }
+
     }
