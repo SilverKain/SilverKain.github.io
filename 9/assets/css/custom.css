@@ -204,6 +204,40 @@ footer .footer_rht span{
     font-size: 20px;
 }
 
+
+/*INDUSTRIES*/
+
+.indust h2{
+    text-align: center;
+    padding-top: 85px;
+}
+
+.indust .indpic img {
+    float: right;
+}
+
+.indrigt p span{
+    font-size: 23px;
+    color: #d79e3e;
+}
+
+.indrigt p{
+    font-size: 21px;
+}
+
+.indrigt .col-sm-4 img{
+    margin-top: 40px;
+}
+
+.indpic {
+    margin-top: 20px;
+}
+
+.indrigt{
+    margin-top: 20px;
+}
+
+
 /*MEDIA*/
 
 
@@ -242,11 +276,19 @@ footer .footer_rht span{
         width: 30%;
     }
 
+    .indust img {
+        width: inherit;
+    }
+
 }
 
     @media (min-width: 881px) and (max-width: 992px) {
         .container img {
             width: 114%;
+        }
+
+        .indust img {
+            width: inherit;
         }
 
         #orng-txt .text_rht {
@@ -279,12 +321,15 @@ footer .footer_rht span{
             width: 30%;
         }
 
-
     }
 
     @media (min-width: 768px) and (max-width: 880px) {
         .container img {
             width: 114%;
+        }
+
+        .indust img {
+            width: inherit;
         }
 
         #project-pics img {
@@ -344,6 +389,11 @@ footer .footer_rht span{
 
         footer .col-sm-6{
             padding-left: 200px;
+        }
+
+
+        .indust .indpic img {
+            float: left;
         }
 
     }
