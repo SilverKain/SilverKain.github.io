@@ -111,7 +111,7 @@ color:#a28548;
 
 /*CERTAINTY TEXT*/
 
-.certainty{
+.certainty .container{
     background: url("../img/certainty_number.png") no-repeat;
 }
 
@@ -151,7 +151,7 @@ color:#a28548;
     color: #003865;
 }
 
-.agility{
+.agility .container{
     background: url("../img/agility_number.png") no-repeat;
 }
 
