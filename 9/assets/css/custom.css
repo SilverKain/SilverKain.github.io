@@ -211,7 +211,7 @@ footer .footer_rht span{
 /*MEDIA*/
 
 
-@media (min-width: 1200px) and (max-width : 1920px) {
+@media (min-width: 1200px) and (max-width : 1980px) {
     .container {
         width: 1440px;
     }
