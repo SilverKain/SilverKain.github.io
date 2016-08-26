@@ -41,14 +41,26 @@ color:#a28548;
 }
 
 .navbar-collapse{
-    margin-top: 97px;
+    margin-top: 95px;
+}
+
+.navbar-header .head_eff img {
+    margin-left: 500px;
+}
+
+.navbar-header .head_cert img {
+    margin-left: -25px;
+}
+
+.navbar-header .head_agil img {
+    margin-left: -25px;
 }
 
 
 /*PROJECT PICS*/
 
 #project-pics img{
-    margin-top: 47px;
+    margin-top: 45px;
 }
 
 #project-pics {
