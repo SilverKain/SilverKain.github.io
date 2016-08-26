@@ -53,7 +53,7 @@ color:#a28548;
 }
 
 .navbar-header .head_agil img {
-    margin-left: -25px;
+    margin-left: -26px;
 }
 
 
@@ -253,7 +253,7 @@ footer .footer_rht span{
 /*MEDIA*/
 
 
-@media (min-width: 1200px) and (max-width : 1980px) {
+@media (min-width: 1488px) and (max-width : 1980px) {
     .container {
         width: 1440px;
     }
@@ -261,7 +261,19 @@ footer .footer_rht span{
     footer .col-sm-6{
         padding-left: 400px;
     }
+
+    .navbar-header .head_eff img {
+        margin-left: 500px;
+    }
 }
+
+@media (min-width: 1200px) and (max-width : 1488px) {
+
+    .navbar-header .head_eff img {
+        margin-left: 200px;
+    }
+}
+
 
 
 @media (min-width: 993px) and (max-width : 1200px) {
@@ -290,6 +302,10 @@ footer .footer_rht span{
 
     .indust img {
         width: inherit;
+    }
+
+    .navbar-header .head_eff img {
+        margin-left: 4px;
     }
 
 }
@@ -331,6 +347,10 @@ footer .footer_rht span{
 
         footer .container img {
             width: 30%;
+        }
+
+        .navbar-header .head_eff img {
+            margin-left: -122px;
         }
 
     }
@@ -379,6 +399,10 @@ footer .footer_rht span{
             width: 30%;
         }
 
+        .navbar-header .head_eff img {
+            margin-left: -218px;
+        }
+
     }
 
     @media (min-width: 0px) and (max-width: 767px) {
@@ -406,6 +430,10 @@ footer .footer_rht span{
 
         .indust .indpic img {
             float: left;
+        }
+
+        .navbar-header .head_eff img {
+            margin-left: -25px;
         }
 
     }
