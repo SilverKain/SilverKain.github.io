@@ -255,20 +255,20 @@ footer .footer_rht span{
 
 @media (min-width: 1448px) {
     .container {
-        margin: 1px auto auto 45px;
+        margin: 1px auto auto 85px;
     }
 
     footer .col-sm-6{
-        padding-left: 410px;
+        padding-left: 277px;
     }
 
     .navbar {
-        margin: -2px 30px 0px 60px;
+        margin: -2px 30px 0px 100px;
         width: 1438px;
     }
 
     .navbar-collapse{
-        margin: 95px 30px 0px 60px;
+        margin: 95px 30px 0px 100px;
         width: 1438px;
     }
 
@@ -281,11 +281,11 @@ footer .footer_rht span{
     }
 
     .pic_up_foot {
-        margin: 0px 59px 0px 59px;
+        margin: 0px 59px 0px 100px;
     }
 
     footer{
-        margin: 0px 175px 0px 59px;
+        margin: 0px 175px 0px 100px;
     }
 }
 
@@ -328,11 +328,11 @@ footer .footer_rht span{
 
 @media (min-width: 993px) and (max-width : 1200px) {
     .container img {
-        width: 110%;
+        width: 111%;
     }
 
     #project-pics .container{
-        margin: 0px 33px;
+        margin: 0px 30px;
     }
 
     #project-pics {
@@ -346,7 +346,7 @@ footer .footer_rht span{
     }
 
     #orng-txt .container{
-        margin: 0px 12px;
+        margin: 0px 11px;
     }
 
     #orng-txt .text_lft {
@@ -422,17 +422,17 @@ footer .footer_rht span{
         }
 
         #orng-txt .text_rht {
-            width: 19em;
-            padding: 10px;
+            width: 24em;
+            padding: 30px;
         }
 
         #orng-txt .text_lft {
-            width: 18em;
-            padding: 10px;
+            width: 24em;
+            padding: 30px;
         }
 
         #orng-txt .workflow {
-            width: 781px;
+            width: 1000px;
         }
 
         .efficiency p{
@@ -454,6 +454,24 @@ footer .footer_rht span{
         .navbar-header .head_eff img {
             margin-left: -122px;
         }
+
+        .container{
+            width: 990px;
+        }
+
+
+        #project-pics .col-sm-4{
+            margin: 0px 12px 0px -20px;
+        }
+
+        footer .container img {
+            margin-left: -225px;
+        }
+
+        #orng-txt .container {
+            margin: 0px -15px;
+        }
+
 
     }
 
@@ -505,11 +523,34 @@ footer .footer_rht span{
             margin-left: -218px;
         }
 
+        #project-pics .container{
+            margin: auto -15px;
+        }
+
+        #orng-txt .container{
+        margin: auto -15px;
+        }
+
+        footer .container{
+            margin: 0px;
+        }
+
+        .efficiency {
+            margin-left: -140px;
+        }
+
+        .certainty {
+            margin-left: -170px;
+        }
+
+        .agility {
+            margin-left: -170px;
+        }
     }
 
     @media (min-width: 0px) and (max-width: 767px) {
         #project-pics img {
-            margin-top: 0px;
+            margin-top: -3px;
             margin-left: -220px;
         }
 
@@ -522,11 +563,20 @@ footer .footer_rht span{
         }
 
         footer .container img {
-            width: 10%;
+            width: 13%;
+            float: left;
+        }
+
+        footer {
+            width: 800px;
         }
 
         footer .col-sm-6{
             padding-left: 200px;
+        }
+
+        .pic_up_foot img{
+            width: 800px;
         }
 
 
@@ -535,7 +585,32 @@ footer .footer_rht span{
         }
 
         .navbar-header .head_eff img {
-            margin-left: -25px;
+            margin-left: -30px;
         }
+
+        .efficiency .container {
+            margin-left: -35px;
+            width: 70%;
+        }
+
+        .certainty .container {
+            margin-left: -35px;
+            width: 70%;
+        }
+
+        .certainty .col-sm-4{
+            margin: 0px 145px;
+        }
+
+        .agility .container {
+            margin-left: -22px;
+            width: 70%;
+        }
+
+        .agility .col-sm-4{
+            margin: 0px 145px;
+        }
+
+
 
     }
